@@ -1,0 +1,27 @@
+{
+  "title": "schema名称",
+  "type": "object",
+  "properties": {
+    "moduleinfo": {
+      "type": "object",
+      "title": "模块配置信息",
+      "properties": {}
+    },
+    "optioninfo": {
+      "type": "object",
+      "title": "选项配置",
+      "properties": {
+        "dynamic": {
+          "type": "string",
+          "title": "false代表禁止动态输出",
+          "default": "true"
+        },
+        "static": {
+          "type": "string",
+          "title": "false代表禁止静态输出",
+          "default": "true"
+        }
+      }
+    }
+  }
+}

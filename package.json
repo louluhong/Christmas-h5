@@ -1,0 +1,42 @@
+{
+  "name": "wb-bytb-alqqgsdzscard-m",
+  "version": "0.0.1",
+  "description": "圣诞萌想 正主会场模块一 无线",
+  "repository": {
+    "type": "git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "author": {
+    "name": "{娄露红}({WB085725})"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "upx": {
+    "screenshot": "",
+    "assets": {
+      "kimi": "0.0.233",
+      "tb-init-kimi": "*",
+      "m-base": "*",
+      "hairlines": "*"
+    },
+    "width": [
+      "100%"
+    ],
+    "type": "mod",
+    "terminalType": "mobile",
+    "tags": []
+  },
+  "eslintConfig": {
+    "root": true
+  },
+  "kitLight": {
+    "modify_time": "2017-4-5 10:03:35"
+  }
+}

@@ -1,0 +1,1487 @@
+{
+    "version": "0.0.233",
+    "dependencies": {
+        "tbc/km-lazyload": {
+            "alias": "tbc/km-lazyload/0.1.6/index",
+            "requires": [
+                "tbc/km-webp/0.0.3/index",
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "tbc/km-networkimg/0.0.7/index",
+                "tbc/km-srcset/0.0.2/viewport-info",
+                "tbc/km-srcset/0.0.2/srcset-info"
+            ],
+            "labels": ""
+        },
+        "tbc/km-slider": {
+            "alias": "tbc/km-slider/0.2.5/index",
+            "requires": [
+                "tbc/km-srcset/0.0.2/viewport-info",
+                "tbc/km-srcset/0.0.2/srcset-info",
+                "tbc/km-webp/0.0.3/index",
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "tbc/km-networkimg/0.0.7/index",
+                "tbc/km-slider/0.2.5/index.css"
+            ],
+            "labels": ""
+        },
+        "tbc/km-transition/base": {
+            "alias": "tbc/km-transition/0.0.2/base",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-transition": {
+            "alias": "tbc/km-transition/0.0.2/index",
+            "requires": [
+                "kimi/fx"
+            ],
+            "labels": "util"
+        },
+
+
+        "tbc/km-srcset/viewport-info": {
+            "alias": "tbc/km-srcset/0.0.2/viewport-info",
+            "requires": [],
+            "labels": ""
+        },
+
+        "tbc/km-srcset/srcset-info": {
+            "alias": "tbc/km-srcset/0.0.2/srcset-info",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-magzine": {
+            "alias": "tbc/km-magzine/0.0.8/index",
+            "requires": [
+                "kimi/ajax"
+            ],
+            "labels": "ui"
+        },
+        "tbc/km-xtab": {
+            "alias": "tbc/km-xtab/3.1.1/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed",
+                "tbc/km-xscroll/3.2.0/core",
+                "tbc/km-xscroll/3.2.0/components/scrollbar",
+                "tbc/km-xscroll/3.2.0/components/controller",
+                "tbc/km-xscroll/3.2.0/simulate-scroll",
+                "tbc/km-xscroll/3.2.0/origin-scroll",
+                "tbc/km-xscroll/3.2.0/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xmenu": {
+            "alias": "tbc/km-xmenu/3.0.5/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed",
+                "tbc/km-xscroll/3.2.0/core",
+                "tbc/km-xscroll/3.2.0/components/scrollbar",
+                "tbc/km-xscroll/3.2.0/components/controller",
+                "tbc/km-xscroll/3.2.0/simulate-scroll",
+                "tbc/km-xscroll/3.2.0/origin-scroll",
+                "tbc/km-xscroll/3.2.0/index"
+            ],
+            "labels": ""
+        },
+        "tbc/m-base": {
+            "alias": "tbc/m-base/0.0.9/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "tbc/km-rating": {
+            "alias": "tbc/km-rating/1.1.0/index",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-rating/index.jst": {
+            "alias": "tbc/km-rating/1.1.0/index.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-gotop": {
+            "alias": "tbc/km-gotop/0.0.8/index",
+            "requires": [
+                "tbc/km-gotop/0.0.8/index.css"
+            ],
+            "labels": ""
+        },
+        "tbc/km-dialog": {
+            "alias": "tbc/km-dialog/0.2.5/index",
+            "requires": [
+                "tbc/km-dialog/0.2.5/index.css",
+                "mtb/lib-windvane/2.0.3/windvane.cmd"
+            ],
+            "labels": ""
+        },
+        "tbc/km-navtab": {
+            "alias": "tbc/km-navtab/0.0.9/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "tbc/m-tabheader": {
+            "alias": "tbc/m-tabheader/0.0.1/index",
+            "requires": [
+                "tbc/km-scroll/0.0.6/index"
+            ],
+            "labels": "ui"
+        },
+        "tbc/m-tabheader/index.jst": {
+            "alias": "tbc/m-tabheader/0.0.1/index.jst",
+            "requires": [],
+            "labels": ""
+        },
+
+        "tbc/km-tab": {
+            "alias": "tbc/km-tab/0.1.2/index",
+            "requires": [
+                "tbc/km-flipsnap/0.6.4/index",
+                "tbc/km-tab/0.1.2/index.jst"
+            ],
+            "labels": "ui"
+        },
+
+        "tbc/km-tab/index.jst": {
+            "alias": "tbc/km-tab/0.1.2/index.jst"
+        },
+
+        "tbc/km-countdown": {
+            "alias": "tbc/km-countdown/0.0.5/index",
+            "requires": [
+                "kimi/fx"
+            ],
+            "labels": "ui"
+        },
+        "tbc/m-loading": {
+            "alias": "tbc/m-loading/1.0.3/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "kg/m-loading": {
+            "alias": "kg/m-loading/1.0.6/index",
+            "requires": ["kg/m-loading/1.0.6/loading.css"],
+            "labels": "ui"
+        },
+        "tbc/km-task": {
+            "alias": "tbc/km-task/0.0.4/index",
+            "requires": [],
+            "labels": "util"
+        },
+        "tbc/km-callapp": {
+            "alias": "tbc/km-callapp/0.0.7/index",
+            "requires": [],
+            "labels": "util"
+        },
+        "tbc/m-cart": {
+            "alias": "tbc/m-cart/0.0.2/index",
+            "requires": [
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-login/1.4.1/login.cmd",
+                "mtb/lib-mtop/1.6.4/middleware.cmd"
+            ],
+            "labels": "tao"
+        },
+        "tbc/km-toast": {
+            "alias": "tbc/km-toast/1.0.2/index",
+            "requires": [
+                "mtb/lib-windvane/2.0.3/windvane.cmd"
+            ],
+            "labels": "ui"
+        },
+        "tbc/km-webp": {
+            "alias": "tbc/km-webp/0.0.3/index",
+            "requires": [],
+            "labels": "util"
+        },
+        "tbc/km-slidemenu": {
+            "alias": "tbc/km-slidemenu/0.2.2/index",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-page": {
+            "alias": "tbc/km-page/0.0.3/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "tbc/km-sticky": {
+            "alias": "tbc/km-sticky/0.0.3/index",
+            "requires": [],
+            "labels": "util"
+        },
+        "tbc/km-scrape": {
+            "alias": "tbc/km-scrape/0.0.2/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "tbc/km-scrape/utils/raf": {
+            "alias": "tbc/km-scrape/0.0.2/utils/raf",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scrape/utils/support": {
+            "alias": "tbc/km-scrape/0.0.2/utils/support",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-flipsnap": {
+            "alias": "tbc/km-flipsnap/0.6.4/index",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-iscroll": {
+            "alias": "tbc/km-iscroll/4.2.5/index",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll": {
+            "alias": "tbc/km-scroll/0.0.6/index",
+            "requires": [
+                "tbc/km-scroll/0.0.6/index.css",
+                "tbc/km-scroll/0.0.6/utils/support",
+                "tbc/km-scroll/0.0.6/utils/tool",
+                "tbc/km-scroll/0.0.6/utils/raf",
+                "tbc/km-scroll/0.0.6/utils/cubic-bezier"
+            ],
+            "labels": ""
+        },
+        "tbc/km-scroll/infinite-scroll": {
+            "alias": "tbc/km-scroll/0.0.6/infinite-scroll",
+            "requires": [
+                "tbc/km-srcset/0.0.2/srcset-info",
+                "tbc/km-srcset/0.0.2/viewport-info",
+                "tbc/km-webp/0.0.3/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/infinite-loading": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/infinite-loading/index",
+            "requires": [
+                "tbc/km-scroll/0.0.6/plugin/infinite-loading/index.css"
+            ],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/infinite-loading/index.jst": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/infinite-loading/index.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/pull-to-load-more": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/pull-to-load-more/index",
+            "requires": [
+                "tbc/km-scroll/0.0.6/plugin/pull-to-load-more/index.css",
+                "tbc/m-loading/1.0.3/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/pull-to-load-more/index.jst": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/pull-to-load-more/index.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/pull-to-refresh": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/pull-to-refresh/index",
+            "requires": [
+                "tbc/km-scroll/0.0.6/plugin/pull-to-refresh/index.css",
+                "tbc/m-loading/1.0.3/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/pull-to-refresh/index.jst": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/pull-to-refresh/index.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/sticky": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/sticky/index",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/surface-manager": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/surface-manager/index",
+            "requires": [
+                "tbc/km-scroll/0.0.6/plugin/surface-manager/index.css",
+                "tbc/km-scroll/0.0.6/utils/support",
+                "tbc/km-scroll/0.0.6/utils/tool",
+                "tbc/km-srcset/0.0.2/srcset-info",
+                "tbc/km-srcset/0.0.2/viewport-info",
+                "tbc/km-webp/0.0.3/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/zoom-fx": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/zoom-fx/index",
+            "requires": [
+                "tbc/km-scroll/0.0.6/utils/support",
+                "tbc/km-scroll/0.0.6/utils/tool"
+            ],
+            "labels": ""
+        },
+        "tbc/km-scroll/utils/cubic-bezier": {
+            "alias": "tbc/km-scroll/0.0.6/utils/cubic-bezier",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/utils/raf": {
+            "alias": "tbc/km-scroll/0.0.6/utils/raf",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/utils/support": {
+            "alias": "tbc/km-scroll/0.0.6/utils/support",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/utils/tool": {
+            "alias": "tbc/km-scroll/0.0.6/utils/tool",
+            "requires": [],
+            "labels": ""
+        },
+        "mtb/lib-login": {
+            "alias": "mtb/lib-login/1.4.1/login.cmd",
+            "requires": [],
+            "labels": "tao"
+        },
+        "tbc/km-dropmenu": {
+            "alias": "tbc/km-dropmenu/0.0.3/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "tbc/km-validator": {
+            "alias": "tbc/km-validator/0.0.4/index",
+            "requires": [
+                "tbc/km-validator/0.0.4/rule",
+                "tbc/km-validator/0.0.4/field",
+                "tbc/km-dialog/0.2.5/index.css",
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "tbc/km-dialog/0.2.5/index",
+                "tbc/km-validator/0.0.4/index.css"
+            ],
+            "labels": ""
+        },
+        "tbc/km-switcher": {
+            "alias": "tbc/km-switcher/0.0.4/index",
+            "requires": [
+                "tbc/km-switcher/0.0.4/index.css",
+                "tbc/km-switcher/0.0.4/index.jst"
+            ],
+            "labels": ""
+        },
+        "tbc/km-number": {
+            "alias": "tbc/km-number/0.0.1/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "tbc/km-icard": {
+            "alias": "tbc/km-icard/2.0.0/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "tbc/km-uploader": {
+            "alias": "tbc/km-uploader/0.0.8/index",
+            "requires": [
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "mtb/lib-login/1.4.1/login.cmd"
+            ],
+            "labels": ""
+        },
+        "mtb/lib-mtop": {
+            "alias": "mtb/lib-mtop/1.6.4/mtop.cmd",
+            "requires": [],
+            "labels": "tao"
+        },
+        "tbc/km-srcset": {
+            "alias": "tbc/km-srcset/0.0.2/index",
+            "requires": [],
+            "labels": "util"
+        },
+        "tbc/km-networkimg": {
+            "alias": "tbc/km-networkimg/0.0.7/index",
+            "requires": [
+                "mtb/lib-windvane/2.0.3/windvane.cmd"
+            ],
+            "labels": "util"
+        },
+        "tbc/km-xtemplate": {
+            "alias": "tbc/km-xtemplate/1.0.0/index",
+            "requires": [],
+            "labels": "util"
+        },
+        "tbc/km-xtemplate/runtime": {
+            "alias": "tbc/km-xtemplate/1.0.0/runtime",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/log": {
+            "alias": "tbc/log/0.4.2/index",
+            "requires": [],
+            "labels": "util"
+        },
+        "mtb/lib-windvane/hybridapi": {
+            "alias": "mtb/lib-windvane/2.1.1/hybridapi.cmd",
+            "requires": [
+                "mtb/lib-windvane/2.1.1/windvane.cmd"
+            ],
+            "labels": ""
+        },
+        "mtb/lib-windvane": {
+            "alias": "mtb/lib-windvane/2.1.1/windvane.cmd",
+            "requires": [],
+            "labels": "tao"
+        },
+        "mtb/lib-mtop/middleware": {
+            "alias": "mtb/lib-mtop/1.6.4/middleware.cmd",
+            "requires": [],
+            "labels": "tao"
+        },
+        "mtb/lib-gesture": {
+            "alias": "mtb/lib-gesture/1.2.1/gesture.cmd",
+            "requires": [],
+            "labels": "util"
+        },
+        "mtb/lib-motion": {
+            "alias": "mtb/lib-motion/1.1.1/motion.cmd",
+            "requires": [],
+            "labels": "util"
+        },
+        "mtb/lib-env": {
+            "alias": "mtb/lib-env/1.5.11/env.cmd",
+            "requires": [],
+            "labels": ""
+        },
+        "mtb/lib-audio": {
+            "alias": "mtb/lib-audio/1.0.6/audio.cmd",
+            "requires": [
+                "mtb/lib-env/1.3.0/env.cmd"
+            ],
+            "labels": "util"
+        },
+        "mtb/lib-scroll": {
+            "alias": "mtb/lib-scroll/2.7.2/scroll.cmd",
+            "requires": [
+                "mtb/lib-motion/1.1.1/motion.cmd",
+                "mtb/lib-animation/2.0.5/animation.cmd",
+                "mtb/lib-cubicbezier/1.1.1/cubicbezier.cmd",
+                "mtb/lib-gesture/1.2.1/gesture.cmd"
+            ],
+            "labels": ""
+        },
+        "mtb/ctrl-loading": {
+            "alias": "mtb/ctrl-loading/0.2.0/loading.cmd",
+            "requires": [
+                "mtb/ctrl-loading/0.2.0/loading.css"
+            ],
+            "labels": ""
+        },
+        "mtb/ctrl-tabheader": {
+            "alias": "mtb/ctrl-tabheader/0.4.5/tabheader.cmd",
+            "requires": [
+                "mtb/ctrl-tabheader/0.4.5/tabheader.css"
+            ],
+            "labels": "ui"
+        },
+        "mtb/ctrl-selectmenu": {
+            "alias": "mtb/ctrl-selectmenu/0.1.7/selectmenu.cmd",
+            "requires": [
+                "mtb/ctrl-selectmenu/0.1.7/selectmenu.css",
+                "mtb/lib-scroll/2.7.2/scroll.cmd",
+                "mtb/lib-motion/1.1.1/motion.cmd",
+                "mtb/lib-animation/2.0.5/animation.cmd",
+                "mtb/lib-cubicbezier/1.1.1/cubicbezier.cmd",
+                "mtb/lib-gesture/1.2.1/gesture.cmd"
+            ],
+            "labels": "ui"
+        },
+        "tbc/km-slidershow": {
+            "alias": "tbc/km-slidershow/0.0.2/index",
+            "requires": [
+                "tbc/km-flipsnap/0.6.4/index"
+            ],
+            "labels": "ui"
+        },
+        "tbc/km-video-player": {
+            "alias": "tbc/km-video-player/0.0.4/index",
+            "requires": [
+                "kimi/detect"
+            ],
+            "labels": "ui"
+        },
+        "ecc/add-collection": {
+            "alias": "ecc/add-collection/1.0.1/index",
+            "requires": [],
+            "labels": ""
+        },
+        "ecc/alert": {
+            "alias": "ecc/alert/1.1.0/index",
+            "requires": [],
+            "labels": ""
+        },
+        "ecc/backbone-lite": {
+            "alias": "ecc/backbone-lite/1.1.0/index",
+            "requires": [],
+            "labels": ""
+        },
+        "ecc/chartjs": {
+            "alias": "ecc/chartjs/1.0.2/index",
+            "requires": [],
+            "labels": ""
+        },
+        "ecc/iscroll-lite": {
+            "alias": "ecc/iscroll-lite/1.0.0/index",
+            "requires": [],
+            "labels": ""
+        },
+        "ecc/toast": {
+            "alias": "ecc/toast/1.1.0/index",
+            "requires": [],
+            "labels": ""
+        },
+        "ecc/guidemask": {
+            "alias": "ecc/guidemask/1.0.0/index",
+            "requires": [
+                "ecc/guidemask/1.0.0/index.css",
+                "kimi/detect"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xslide": {
+            "alias": "tbc/km-xslide/1.3.1/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed",
+                "tbc/km-xscroll/3.2.0/core",
+                "tbc/km-xscroll/3.2.0/components/scrollbar",
+                "tbc/km-xscroll/3.2.0/components/controller",
+                "tbc/km-xscroll/3.2.0/simulate-scroll",
+                "tbc/km-xscroll/3.2.0/origin-scroll",
+                "tbc/km-xscroll/3.2.0/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-slidelist": {
+            "alias": "tbc/km-slidelist/1.3.2/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed",
+                "tbc/km-xscroll/3.2.0/core",
+                "tbc/km-xscroll/3.2.0/components/scrollbar",
+                "tbc/km-xscroll/3.2.0/components/controller",
+                "tbc/km-xscroll/3.2.0/simulate-scroll",
+                "tbc/km-xscroll/3.2.0/origin-scroll",
+                "tbc/km-xscroll/3.2.0/index",
+                "tbc/km-xscroll-infinite/1.1.0/index",
+                "tbc/km-xscroll-snap/1.1.1/index",
+                "tbc/km-xscroll-lazyload/1.0.2/index",
+                "tbc/km-xscroll-rem/1.0.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-gotop/0.0.5/index.css": {
+            "alias": "tbc/km-gotop/0.0.8/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-city-select/city-list.jst": {
+            "alias": "tbc/km-city-select/1.0.2/city-list.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-city-select/city-located.jst": {
+            "alias": "tbc/km-city-select/1.0.2/city-located.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-city-select/index.css": {
+            "alias": "tbc/km-city-select/1.0.2/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-city-select": {
+            "alias": "tbc/km-city-select/1.0.2/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed",
+                "tbc/km-xscroll/3.2.0/core",
+                "tbc/km-xscroll/3.2.0/components/scrollbar",
+                "tbc/km-xscroll/3.2.0/components/controller",
+                "tbc/km-xscroll/3.2.0/simulate-scroll",
+                "tbc/km-xscroll/3.2.0/origin-scroll",
+                "tbc/km-xscroll/3.2.0/index",
+                "tbc/km-xscroll-snap/1.1.1/index",
+                "tbc/km-city-select/1.0.2/data"
+            ],
+            "labels": ""
+        },
+        "tbc/km-city-select/search-result.jst": {
+            "alias": "tbc/km-city-select/1.0.2/search-result.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "thx/charts": {
+            "alias": "thx/charts/1.7.2/index",
+            "requires": [],
+            "labels": "ui"
+        },
+        "tbc/km-dialog/index.css": {
+            "alias": "tbc/km-dialog/0.2.5/index.css",
+            "requires": [],
+            "labels": ""
+        },
+
+        "tbc/m-like/const": {
+            "alias": "tbc/m-like/4.0.3/const",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/m-like/index.css": {
+            "alias": "tbc/m-like/4.0.3/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/m-like": {
+            "alias": "tbc/m-like/4.0.3/index",
+            "requires": [
+                "tbc/m-like/4.0.3/index.css",
+                "mtb/lib-login/1.4.1/login.cmd",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "tbc/km-toast/1.0.2/index",
+                "tbc/m-like/4.0.3/utils",
+                "tbc/m-like/4.0.3/const"
+            ],
+            "labels": ""
+        },
+        "tbc/m-like/utils": {
+            "alias": "tbc/m-like/4.0.3/utils",
+            "requires": [
+                "mtb/lib-login/1.4.1/login.cmd",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "tbc/km-toast/1.0.2/index"
+            ],
+            "labels": ""
+        },
+
+
+        "kg/m-like/const": {
+            "alias": "kg/m-like/0.2.4/const",
+            "requires": [],
+            "labels": ""
+        },
+        
+        "kg/m-like/index.css": {
+            "alias": "kg/m-like/0.2.4/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "kg/m-like": {
+            "alias": "kg/m-like/0.2.4/index",
+            "requires": [
+                "kg/m-like/0.2.4/index.css",
+                "mtb/lib-login/1.5.3/login.cmd",
+                "kg/km-mtop/2.0.15/index",
+                "mtb/lib-windvane/2.1.1/windvane.cmd",
+                "kg/km-toast/0.4.0/index"
+            ],
+            "labels": ""
+        },
+
+        "kg/m-like/utils": {
+            "alias": "kg/m-like/0.2.4/utils",
+            "requires": [
+                "mtb/lib-login/1.5.3/login.cmd",
+                "kg/km-mtop/2.0.15/index",
+                "mtb/lib-windvane/2.1.1/windvane.cmd",
+                "kg/km-toast/0.4.0/index"
+            ],
+            "labels": ""
+        },
+
+
+
+        "tbc/m-comment": {
+            "alias": "tbc/m-comment/2.0.0/index",
+            "requires": [
+                "mtb/lib-login/1.4.1/login.cmd",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "tbc/km-toast/1.0.2/index"
+            ],
+            "labels": "tao"
+        },
+
+
+        "tbc/m-comment/util": {
+            "alias": "tbc/m-comment/2.0.0/util",
+            "requires": [
+                "mtb/lib-login/1.4.1/login.cmd",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "tbc/km-toast/1.0.2/index"
+            ],
+            "labels": "tao"
+        },
+
+        "kg/m-comment": {
+            "alias": "kg/m-comment/0.0.3/index",
+            "requires": [
+                "kg/m-comment/0.0.3/index.css",
+                "mtb/lib-login/1.5.0/login.cmd",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-windvane/2.1.1/windvane.cmd",
+                "kg/km-toast/0.3.2/index"
+            ],
+            "labels": "tao"
+        },
+
+        "kg/m-comment/util": {
+            "alias": "kg/m-comment/0.3.2/util",
+            "requires": [
+                "mtb/lib-login/1.5.0/login.cmd",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-windvane/2.1.1/windvane.cmd",
+                "kg/km-toast/0.3.2/index"
+            ],
+            "labels": "tao"
+        },
+
+
+        "tbc/km-hammerjs": {
+            "alias": "tbc/km-hammerjs/1.0.1/index",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-xscroll-addons/base": {
+            "alias": "tbc/km-xscroll-addons/1.1.1/base",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-addons/events": {
+            "alias": "tbc/km-xscroll-addons/1.1.1/events",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-addons": {
+            "alias": "tbc/km-xscroll-addons/1.1.1/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-addons/util": {
+            "alias": "tbc/km-xscroll-addons/1.1.1/util",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-xscroll": {
+            "alias": "tbc/km-xscroll/3.2.0/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed",
+                "tbc/km-xscroll/3.2.0/core",
+                "tbc/km-xscroll/3.2.0/components/scrollbar",
+                "tbc/km-xscroll/3.2.0/components/controller",
+                "tbc/km-xscroll/3.2.0/simulate-scroll",
+                "tbc/km-xscroll/3.2.0/origin-scroll"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll/animate": {
+            "alias": "tbc/km-xscroll/3.2.0/animate",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll/boundry": {
+            "alias": "tbc/km-xscroll/3.2.0/boundry",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll/components/controller": {
+            "alias": "tbc/km-xscroll/3.2.0/components/controller",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll/components/scrollbar": {
+            "alias": "tbc/km-xscroll/3.2.0/components/scrollbar",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll/core": {
+            "alias": "tbc/km-xscroll/3.2.0/core",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll/easing": {
+            "alias": "tbc/km-xscroll/3.2.0/easing",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-xscroll/origin-scroll": {
+            "alias": "tbc/km-xscroll/3.2.0/origin-scroll",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed",
+                "tbc/km-xscroll/3.2.0/core"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll/simulate-scroll": {
+            "alias": "tbc/km-xscroll/3.2.0/simulate-scroll",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing",
+                "tbc/km-xscroll/3.2.0/timer",
+                "tbc/km-xscroll/3.2.0/animate",
+                "tbc/km-xscroll/3.2.0/boundry",
+                "tbc/km-hammerjs/1.0.1/index",
+                "tbc/km-xscroll/3.2.0/components/sticky",
+                "tbc/km-xscroll/3.2.0/components/fixed",
+                "tbc/km-xscroll/3.2.0/core",
+                "tbc/km-xscroll/3.2.0/components/scrollbar",
+                "tbc/km-xscroll/3.2.0/components/controller"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll/timer": {
+            "alias": "tbc/km-xscroll/3.2.0/timer",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index",
+                "tbc/km-xscroll/3.2.0/easing"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-pullup": {
+            "alias": "tbc/km-xscroll-pullup/1.0.5/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-pulldown": {
+            "alias": "tbc/km-xscroll-pulldown/1.0.2/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-scale": {
+            "alias": "tbc/km-xscroll-scale/1.0.4/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-infinite": {
+            "alias": "tbc/km-xscroll-infinite/1.1.0/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-snap": {
+            "alias": "tbc/km-xscroll-snap/1.1.1/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-xscroll-lazyload": {
+            "alias": "tbc/km-xscroll-lazyload/1.0.2/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/km-validator/field": {
+            "alias": "tbc/km-validator/0.0.4/field",
+            "requires": [
+                "tbc/km-validator/0.0.4/rule"
+            ],
+            "labels": ""
+        },
+        "tbc/km-validator/index.css": {
+            "alias": "tbc/km-validator/0.0.4/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-validator/rule": {
+            "alias": "tbc/km-validator/0.0.4/rule",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-xscroll-rem": {
+            "alias": "tbc/km-xscroll-rem/1.0.1/index",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/m-xctrl": {
+            "alias": "kg/xctrl/6.6.3/xctrl-kimi",
+            "requires": [
+                "kg/km-mtop/2.0.15/index"
+            ],
+            "labels": "util"
+        },
+
+        "kg/m-xctrl": {
+            "alias": "kg/xctrl/6.6.3/xctrl-kimi",
+            "requires": [
+                "kg/km-mtop/2.0.15/index"
+            ],
+            "labels": "util"
+        },
+
+        "kg/xctrl": {
+            "alias": "kg/xctrl/6.6.3/xctrl-kimi",
+            "requires": [
+                "kg/km-mtop/2.0.15/index"
+            ],
+            "labels": "util"
+        },
+
+        "kg/km-mtop": {
+            "alias": "kg/km-mtop/2.0.15/index",
+            "requires": [
+                "mtb/lib-promise/3.1.3/polyfillB",
+                "mtb/lib-mtop/2.0.13/mtop.cmd"
+            ],
+            "labels": "util"
+        },
+        
+        "kg/m-life-toolbar": {
+            "alias": "kg/m-life-toolbar/0.0.6/index",
+            "requires": [
+                "kg/m-life-toolbar/0.0.6/index.css",
+                "kg/xctrl/6.1.6/xctrl-kimi"
+            ],
+            "labels": "ui"
+        },
+
+        "tbc/km-uploader/p/flipsnap": {
+            "alias": "tbc/km-uploader/0.0.8/p/flipsnap",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-uploader/p/imageview": {
+            "alias": "tbc/km-uploader/0.0.8/p/imageview",
+            "requires": [
+                "tbc/km-uploader/0.0.8/p/x-imageview.jst",
+                "tbc/km-uploader/0.0.8/p/pureWindow"
+            ],
+            "labels": ""
+        },
+        "tbc/km-uploader/p/pureWindow": {
+            "alias": "tbc/km-uploader/0.0.8/p/pureWindow",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-uploader/p/x-imageview.jst": {
+            "alias": "tbc/km-uploader/0.0.8/p/x-imageview.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-uploader/p/imageView.css": {
+            "alias": "tbc/km-uploader/0.0.8/p/imageView.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-uploader/pre": {
+            "alias": "tbc/km-uploader/0.0.8/pre",
+            "requires": [
+                "tbc/km-uploader/0.0.8/index",
+                "tbc/km-uploader/0.0.8/p/imageView.css",
+                "tbc/km-uploader/0.0.8/p/flipsnap",
+                "tbc/km-uploader/0.0.8/p/x-imageview.jst",
+                "tbc/km-uploader/0.0.8/p/pureWindow",
+                "tbc/km-uploader/0.0.8/p/imageview"
+            ],
+            "labels": ""
+        },
+        "tbc/km-scroll/index.css": {
+            "alias": "tbc/km-scroll/0.0.6/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/infinite-loading/index.css": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/infinite-loading/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/pull-to-load-more/index.css": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/pull-to-load-more/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/pull-to-refresh/index.css": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/pull-to-refresh/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-scroll/plugin/surface-manager/index.css": {
+            "alias": "tbc/km-scroll/0.0.6/plugin/surface-manager/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-city-select/city-fragList.jst": {
+            "alias": "tbc/km-city-select/1.0.2/city-fragList.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-city-select/data": {
+            "alias": "tbc/km-city-select/1.0.2/data",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-switcher/index.css": {
+            "alias": "tbc/km-switcher/0.0.4/index.css",
+            "requires": [],
+            "labels": ""
+        },
+        "tbc/km-switcher/index.jst": {
+            "alias": "tbc/km-switcher/0.0.4/index.jst",
+            "requires": [],
+            "labels": ""
+        },
+        "mtb/ctrl-scrollview": {
+            "alias": "mtb/ctrl-scrollview/0.3.1/scrollview.cmd",
+            "requires": [
+                "mtb/ctrl-scrollview/0.3.1/scrollview.css",
+                "mtb/lib-motion/1.1.1/motion.cmd",
+                "mtb/lib-animation/2.0.5/animation.cmd",
+                "mtb/lib-cubicbezier/1.1.1/cubicbezier.cmd",
+                "mtb/lib-scroll/2.7.2/scroll.cmd",
+                "mtb/lib-gesture/1.2.1/gesture.cmd",
+                "mtb/ctrl-loading/0.2.0/loading.cmd",
+                "mtb/ctrl-loading/0.2.0/loading.css"
+            ],
+            "labels": "ui"
+        },
+        "kg/km-callapp": {
+            "alias": "kg/km-callapp/6.0.0/index",
+            "requires": [],
+            "labels": ""
+        },
+        "kg/km-sticky": {
+            "alias": "kg/km-sticky/6.0.1/index",
+            "requires": [],
+            "labels": ""
+        },
+        "kg/km-toast": {
+            "alias": "kg/km-toast/0.3.2/index",
+            "requires": ["kg/km-toast/0.3.2/index.css", "mtb/lib-windvane/2.1.1/windvane.cmd"],
+            "labels": ""
+        },
+        "kg/km-dialog": {
+            "alias": "kg/km-dialog/0.3.1/index",
+            "requires": ["kg/km-dialog/0.3.1/index.css", "mtb/lib-windvane/2.1.1/windvane.cmd"],
+            "labels": ""
+        },
+        "kg/km-xscroll": {
+            "alias": "kg/km-xscroll/4.0.0/index",
+            "requires": []
+        },
+        "kg/km-xtab": {
+            "alias": "kg/km-xtab/4.0.2/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+        "kg/km-xmenu": {
+            "alias": "kg/km-xmenu/4.0.0/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+        "kg/km-xslide": {
+            "alias": "kg/km-xslide/4.0.0/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+        "kg/km-slidelist": {
+            "alias": "kg/km-slidelist/4.0.1/index",
+            "requires": ["kg/km-xscroll/4.0.0/index", "kg/km-xscroll-infinite/4.0.1/index", "kg/km-xscroll-snap/4.0.0/index", "kg/km-xscroll-lazyload/4.0.0/index"]
+        },
+
+        "kg/km-xscroll-pullup": {
+            "alias": "kg/km-xscroll-pullup/4.0.4/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+        "kg/km-xscroll-pulldown": {
+            "alias": "kg/km-xscroll-pulldown/4.0.0/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+        "kg/km-xscroll-lazyload": {
+            "alias": "kg/km-xscroll-lazyload/4.0.0/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+        "kg/km-xscroll-infinite": {
+            "alias": "kg/km-xscroll-infinite/4.0.1/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+        "kg/km-xscroll-snap": {
+            "alias": "kg/km-xscroll-snap/4.0.0/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+        "kg/km-xscroll-scale": {
+            "alias": "kg/km-xscroll-scale/4.0.0/index",
+            "requires": [
+                "kg/km-xscroll/4.0.0/index"
+            ]
+        },
+
+        "kg/km-lazyload": {
+            "alias": "kg/km-lazyload/6.1.3/index",
+            "requires": [
+                "kg/km-webp/1.0.4/index",
+                "mtb/lib-windvane/2.1.1/windvane.cmd",
+                "kg/km-networkimg/6.1.1/index",
+                "kg/km-srcset/6.0.0/viewport-info",
+                "kg/km-srcset/6.0.0/srcset-info"
+            ]
+        },
+
+        "kg/km-slider": {
+            "alias": "kg/km-slider/0.3.7/index",
+            "requires": [
+                "kg/km-srcset/6.0.0/viewport-info",
+                "kg/km-srcset/6.0.0/srcset-info",
+                "kg/km-webp/1.0.4/index",
+                "kg/km-networkimg/6.1.1/index",
+                "mtb/lib-windvane/2.1.1/windvane.cmd",
+                "kg/km-slider/0.3.7/index.css"
+            ]
+        },
+
+        "kg/km-slider/index.css": {
+            "alias": "kg/km-slider/0.3.7/index.css",
+            "requires": [],
+            "labels": ""
+        },
+
+        "kg/km-city": {
+            "alias": "kg/km-city/0.0.9/index",
+            "requires": [
+                "kg/km-city/0.0.9/index.css",
+                "mtb/lib-windvane/2.1.1/windvane.cmd",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-env/1.5.11/env.cmd"
+            ]
+        },
+
+        "kg/km-loc": {
+            "alias": "kg/km-loc/0.0.7/index",
+            "requires": ["mtb/lib-windvane/2.1.1/windvane.cmd", "mtb/lib-mtop/1.6.4/mtop.cmd"],
+            "labels": "ui"
+        },
+
+        "kg/km-webp": {
+            "alias": "kg/km-webp/1.0.4/index",
+            "requires": [],
+            "labels": ""
+        },
+
+        "kg/km-networkimg": {
+            "alias": "kg/km-networkimg/6.1.1/index",
+            "requires": [
+                "mtb/lib-windvane/2.1.1/windvane.cmd"
+
+            ],
+            "labels": ""
+        },
+
+        "kg/km-srcset/viewport-info": {
+            "alias": "kg/km-srcset/6.0.0/viewport-info",
+            "requires": [],
+            "labels": ""
+        },
+
+        "kg/km-srcset/srcset-info": {
+            "alias": "kg/km-srcset/6.0.0/srcset-info",
+            "requires": [],
+            "labels": ""
+        },
+
+        "kg/km-countdown": {
+            "alias": "kg/km-countdown/0.0.6/index",
+            "requires": [
+                "kg/km-countdown/0.0.6/index.css", "kg/km-countdown/0.0.6/timer", "kg/km-countdown/0.0.6/effect"
+            ],
+            "labels": "ui"
+        },
+
+        "chartx/chart/line/index": {
+            "alias": "thx/charts/1.9.33/chartx/chart/line/index",
+            "requires": [
+                "thx/charts/1.9.33/chartx/lib/canvax/index",
+                "thx/charts/1.9.33/chartx/lib/canvax/library/underscore",
+                "thx/charts/1.9.33/chartx/lib/canvax/library/hammer",
+                "thx/charts/1.9.33/chartx/lib/canvax/event/handler/touch",
+                "thx/charts/1.9.33/chartx/lib/canvax/event/handler/mouse",
+                "thx/charts/1.9.33/chartx/chart/index",
+                "thx/charts/1.9.33/chartx/utils/tools",
+                "thx/charts/1.9.33/chartx/utils/datasection",
+                "thx/charts/1.9.33/chartx/chart/line/xaxis",
+                "thx/charts/1.9.33/chartx/components/yaxis/yAxis",
+                "thx/charts/1.9.33/chartx/components/back/Back",
+                "thx/charts/1.9.33/chartx/components/anchor/Anchor",
+                "thx/charts/1.9.33/chartx/chart/line/graphs",
+                "thx/charts/1.9.33/chartx/chart/line/group",
+                "thx/charts/1.9.33/chartx/utils/dataformat",
+                "thx/charts/1.9.33/chartx/utils/colorformat",
+                "thx/charts/1.9.33/chartx/chart/line/tips",
+                "thx/charts/1.9.33/chartx/components/tips/tip",
+                "thx/charts/1.9.33/chartx/components/xaxis/xAxis",
+                "thx/charts/1.9.33/chartx/lib/canvax/animation/Tween"
+            ]
+        },
+
+        "tbc/km-rgn": {
+            "alias": "tbc/km-rgn/0.0.1/index",
+            "requires": [],
+            "labels": ""
+        },
+
+        "tbc/km-xscroll/components/fixed": {
+            "alias": "tbc/km-xscroll/3.2.0/components/fixed",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+
+        "tbc/km-xscroll/components/sticky": {
+            "alias": "tbc/km-xscroll/3.2.0/components/sticky",
+            "requires": [
+                "tbc/km-xscroll-addons/1.1.1/util",
+                "tbc/km-xscroll-addons/1.1.1/events",
+                "tbc/km-xscroll-addons/1.1.1/base",
+                "tbc/km-xscroll-addons/1.1.1/index"
+            ],
+            "labels": ""
+        },
+        "tbc/m-life-search": {
+            "alias": "tbc/m-life-search/1.0.0/index",
+            "requires": [
+                "tbc/m-life-search/1.0.0/index.css",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-login/1.4.1/login.cmd",
+                "tbc/m-life-search/1.0.0/index.jst",
+                "tbc/m-life-search/1.0.0/hot.jst",
+                "tbc/m-life-search/1.0.0/history.jst",
+                "tbc/km-dialog/0.2.5/index.css",
+                "mtb/lib-windvane/2.0.3/windvane.cmd",
+                "tbc/km-dialog/0.2.5/index",
+                "tbc/km-xscroll-addons/1.0.3/util",
+                "tbc/km-xscroll-addons/1.0.3/events",
+                "tbc/km-xscroll-addons/1.0.3/base",
+                "tbc/km-xscroll-addons/1.0.3/index",
+                "tbc/km-xscroll/3.1.2/easing",
+                "tbc/km-xscroll/3.1.2/timer",
+                "tbc/km-xscroll/3.1.2/animate",
+                "tbc/km-hammerjs/1.0.0/index",
+                "tbc/km-xscroll/3.1.2/boundry",
+                "tbc/km-xscroll/3.1.2/core",
+                "tbc/km-xscroll/3.1.2/components/scrollbar",
+                "tbc/km-xscroll/3.1.2/components/controller",
+                "tbc/km-xscroll/3.1.2/simulate-scroll",
+                "tbc/km-xscroll/3.1.2/origin-scroll",
+                "tbc/km-xscroll/3.1.2/index"
+            ],
+            "labels": ""
+        },
+        "mtb/lib-httpurl": {
+            "alias": "mtb/lib-httpurl/1.3.6/httpurl.cmd",
+            "requires": [],
+            "labels": "util"
+        },
+        "mtb/lib-callapp": {
+            "alias": "mtb/lib-callapp/1.4.8/callapp.cmd",
+            "requires": [],
+            "labels":"tao"
+        },
+        "tb/m-calendar-sdk": {
+            "alias": "tb/m-calendar-sdk/1.0.4/unconstrained",
+            "requires": [
+                "mtb/lib-env/1.5.8/env.cmd",
+                "mtb/lib-httpurl/1.3.6/httpurl.cmd",
+                "mtb/lib-windvane/2.1.1/windvane.cmd",
+                "mtb/lib-login/1.4.1/login.cmd",
+                "mtb/lib-mtop/1.6.4/mtop.cmd",
+                "mtb/lib-callapp/1.4.8/callapp.cmd"
+            ],
+            "labels": ""
+        },
+
+        "kg/bigpromo-banner": {
+            "alias": "kg/bigpromo-banner/0.0.2/index",
+            "requires": [
+                "kg/km-lazyload/6.1.0/index"
+            ],
+            "labels": ""
+        },
+        "kg/aplus-abtest": {
+ 
+            "alias": "kg/aplus-abtest/0.0.1/index",
+             
+            "requires": [],
+             
+            "labels": "util"
+        },
+        "mtb/lib-callapp": {
+            "alias": "mtb/lib-callapp/1.4.8/callapp.cmd",
+            "requires": [
+                "mtb/lib-env/1.5.15/env.cmd",
+                "mtb/lib-httpurl/1.3.7/httpurl.cmd"
+            ],
+            "labels": ""
+        }
+    }
+}

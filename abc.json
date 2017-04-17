@@ -1,0 +1,23 @@
+{
+	"name":"wb-bytb-alqqgsdzscard-m",
+    "type":"kimi",
+    "builder":"@ali/builder-tms-kimi",
+    "author": "{娄露红}({WB085725})",
+    "version": "@BRANCH@",
+    "group": "tb-mod",
+    "options": {
+        "ignoreIndexPostfix": true,
+        "livereloadPort": 29909,
+        "port": 8009,
+        "concat":true,
+        "app-config": true,
+        "tbc-config": true,
+        "css-to-js": true,
+        "repo": "",
+        "inline": false,
+        "builderReflect": true
+    },
+    "plugins":{
+
+    }
+}

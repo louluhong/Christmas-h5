@@ -1,0 +1,145 @@
+<%$.each(data.result, function(k,v){
+  v.bpuDetail = v.bpuDetail ? v.bpuDetail : {};
+  v.bpusDetail = v.bpusDetail ? v.bpusDetail : [{}, {}, {}];
+  v.buyerDetail = v.buyerDetail ? v.buyerDetail : {};
+  v.answerDetail = v.answerDetail ? v.answerDetail : {};
+  v.buyerDetail.userIcon = v.buyerDetail.userIcon ? v.buyerDetail.userIcon : '//gw.alicdn.com/tps/TB1aaMLOXXXXXXmXVXXXXXXXXXX-60-60.png';
+%>
+  <%if(v.type === 1 || v.type===2 || v.type === 3 || v.type === 4){%>
+  <li class="item_li clearfix jk_li <%if(v.type===4){%> four<%}else if(v.type==3){%> three <%}else if(v.type==2){%> two<%}%>">
+    <a href="//h5.m.taobao.com/global/buyer_index/index.html?userId=<%=(v.goodBuyer || v.buyerDetail.userId || v.hostUser)%>" class="taglink">
+      <%if(v.buyerDetail){%>
+      <img data-src="<%=v.buyerDetail.userIcon%>_80x80q90.jpg" alt="" class="item_head J_LazyLoad">
+      <%}%>
+      <%if(v.type==3){%>
+        <img data-src="<%=v.userPic%>_80x80q90.jpg" alt="" class="item_head J_LazyLoad">
+      <%}%>
+      <img data-src="https://gw.alicdn.com/tps/TB1BzmEOFXXXXcQXVXXXXXXXXXX-70-59.png" alt="" class="head_mz J_LazyLoad">
+    </a>
+    <a href="<%if(v.bpuDetail && v.bpuDetail.bpuId){%>//h5.m.taobao.com/need/weex/container.html?_wx_tpl=https://g.alicdn.com/mtb/need-weex/p/bpu/entry-min.js&bpuId=<%=v.bpuDetail.bpuId%><%}%><%if(v.type==3){%><%=v.liveUrl%><%}%>&scm=<%if(v.type==2){%><%=data.limitedScm%><%}else{%><%=data.recScm%><%}%>" target="_blank">
+      <span class="item_font">回应了圣诞心愿</span>
+      <span class="item_font1">发起圣诞限量抢购</span>
+      <span class="item_font2">直播扫货</span>
+      <span class="item_font3">推荐了圣诞礼物</span>
+      <span class="item_name">
+        <%if(v.buyerDetail){%>
+          <%=v.buyerDetail.taobaoNick%>
+        <%}%>
+        <%if(v.buyerDetail){%>
+          <%=v.buyerDetail.userName%>
+        <%}%>
+        <%if(v.type==3) {%>
+          <strong class="clampline"><%=v.hostNick%></strong>
+          <%if(v.country){%>
+            在<b class=""><%=v.country%></b>
+          <%}%>
+        <%}%>
+        <%if(v.buyerDetail && v.buyerDetail.address){%>
+          在<b class=""><%=v.buyerDetail.address%></b>
+        <%}%>
+      </span>
+      <div class="by_left">
+        <img data-src="<%if(v.bpuDetail && v.bpuDetail.mainPic){%><%=v.bpuDetail.mainPic%><%}else{%><%=v.picUrl%><%}%>_240x240q90.jpg" alt="" class="item_img J_LazyLoad">
+      </div>
+      <div class="by_right">
+          <span class="item_title"><%if(v.bpuDetail){%><%=(v.bpuDetail.encourage || v.bpuDetail.showTitle)%><%}%></span>
+          <span class="item_title1"><img src="https://gw.alicdn.com/tps/TB1bfKROFXXXXc8XFXXXXXXXXXX-93-31.png" alt=""><%if(v.bpuDetail){%><%=(v.bpuDetail.encourage || v.bpuDetail.showTitle)%><%}%></span>
+          <span class="item_title2"><img src="https://gw.alicdn.com/tps/TB1LlG8OFXXXXXsXpXXXXXXXXXX-119-31.png" alt=""><%=v.title%></span>
+          <%if(v.type===4){%>
+          <span class="item_answer">推荐：<%=v.answerDetail.content%></span>
+          <%}%>
+          <span class="item_price">&yen;<b><%=v.price%></b>
+            <%if(v.bpuDetail.referencePrice){%>
+              <del>&yen;<%=v.bpuDetail.referencePrice%></del>
+            <%}else if (v.rawPrice){%>
+              <del>&yen;<%=v.rawPrice%></del>
+            <%}%>
+          </span>
+          <%if (v.quantityUpper) {%><span class="item_xl">限量<%=v.quantityUpper%>件</span><%}%>
+          <%if(v.type === 3){%>
+          <p class="live-pos">
+            <strong class="eggs">
+              <%for (var i = 0; i < 4; i++) {
+                var icoclass = Math.ceil(Math.random() * 4);
+              %>
+              <i class="ico ico<%=icoclass%> act<%=i+1%>"></i>
+              <%}%>
+            </strong>
+            <span class="item_num iconfont liveview">&#xe604;<%=v.fansCount%>人在看</span>
+          </p>
+          <%}%>
+        <!-- </a> -->
+        <img src="https://gw.alicdn.com/tps/TB1q1KMOFXXXXbtXFXXXXXXXXXX-212-70.png" alt="" class="item_btn">
+        <!-- 直播按钮 -->
+        <img src="https://gw.alicdn.com/tps/TB1y05ZOFXXXXXsXFXXXXXXXXXX-212-70.png" alt="" class="item_btn1">
+      </div>
+    </a>
+  </li>
+  <%}else if(v.type === 5 || v.type === 6){
+    var links = '//h5.m.taobao.com/app/global/www/index/index.html';
+    if (v.type === 5) {
+      links = v.link;
+    }
+    if (v.type === 6) {
+      var bpuids = '';
+      var itemids = '';
+      v.bpusDetail.forEach(function(i, iv) {
+        bpuids = iv.bpuId + ';'
+        itemids = iv.itemId + ';'
+      });
+      bpuids = bpuids.slice(0, -1);
+      itemids = itemids.slice(0, -1);
+      links = 'https://h5.m.taobao.com/need/weex/container.html?_wx_tpl=https://g.alicdn.com/mtb/need-weex/p/broadcastDetail/entry-min.js&brandId=' + v.brandDetail.brandId + '&bpuIdParamList='+ bpuids +'&itemIdParamList=' + itemids + '&scm=' + data.recScm;
+    }
+  %>
+  <li class="item_li_another clearfix <%if(v.type === 6){%>five<%}%> jk_li">
+    <a href="<%=links%>" class="item-blocks">
+      <div class="by_head clearfix">
+        <%if(v.type==5){%>
+          <img data-src="<%=v.portraitarray[0]%>_80x80q90.jpg" alt="" class="head J_LazyLoad">
+          <img data-src="<%=v.portraitarray[1]%>_80x80q90.jpg" alt="" class="head J_LazyLoad">
+          <img data-src="<%=v.portraitarray[2]%>_80x80q90.jpg" alt="" class="head J_LazyLoad">
+        <%}else if(v.type==6){%>
+          <%$.each(v.buyersDetail,function(k1,v1){%>
+            <%if(k1<3&&k1>=0){%>
+              <img data-src="<%=v1.userIcon%>_80x80q90.jpg" alt="" class="head J_LazyLoad">
+            <%}%>
+          <%})%>
+        <%}%>
+        <span class="head_font"><%=v.buyerNum%><%=v.buyernum%>个买手提供了报价</span>
+      </div>
+      <p class="by_title_container clearfix">
+        <span class="by_title"><%if(v.type==5){%><%=v.time%>限量商品<%}else if(v.type==6){%><%=v.brandDetail.name%><%}%></span>
+        <span class="sp_count"><%=v.bpuNum%><%=v.goodsnum%> 商品</span>
+      </p>
+      <div class="by_sp clearfix">
+        <%if(v.type==5){%>
+          <%$.each(v.goodsarray,function(k2,v2){%>
+          <div class="sp_con" <%if(k2%3==2){%>style="margin-right:0;"<%}%>>
+            <img data-src="<%=v2.pic%>_240x240q90.jpg" alt="" class="sp_img J_LazyLoad">
+            <span class="sp_xl">限量<b><%=v2.num%></b>件</span>
+            <span class="sp_price"><b>&yen;</b><%=v2.price%><del>&yen;<%=v2.rawPrice%></del></span>
+          </div>
+          <%})%>
+        <%}else if(v.type==6){%>
+          <%$.each(v.bpusDetail,function(k2,v2){%>
+          <div class="sp_con" <%if(k2%3==2){%>style="margin-right:0;"<%}%>>
+            <img data-src="<%=v2.mainPic%>_240x240q90.jpg" alt="" class="sp_img J_LazyLoad">
+            <span class="sp_price"><b>&yen;</b><%=v2.price%></span>
+          </div>
+          <%})%>
+        <%}%>
+      </div>
+    </a>
+  </li>
+  <%}else if(v.type==8){
+    var max = Math.floor(Math.random() * 56);
+    var randomProfile = v.idarray[max];
+  %>
+  <li class="item_img2 jk_li">
+    <a href="javascript:void(0);" class="by_bottom_link" data-link=<%=randomProfile%>>
+      <img data-src="//gw.alicdn.com/tps/TB1i3pzOVXXXXbrXXXXXXXXXXXX-710-188.jpg" alt="" class="J_LazyLoad christ-profile-raffle">
+    </a>
+  </li>
+  <%}%>
+<% });%>
